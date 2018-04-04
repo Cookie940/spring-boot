@@ -16,7 +16,13 @@ public class CarService {
         car1.setPrice(100d);
         car1.setCreateDate(new Date());
         car1.setId(1);
+        Car car = new Car();
+        car.setName("悍马");
+        car.setPrice(1000d);
+        car.setCreateDate(new Date());
+        car.setId(2);
         list.add(car1);
+        list.add(car);
         return list;
     }
 
